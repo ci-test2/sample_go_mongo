@@ -18,6 +18,8 @@ install:
 before_script:
   - mkdir -p shippable/testresults
   - mkdir -p shippable/codecoverage
+  
+build_image: drydock:drydock/u12golpls:tip
 
 script:
   - export GOPATH=$PWD
