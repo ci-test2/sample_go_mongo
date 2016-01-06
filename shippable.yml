@@ -10,7 +10,7 @@ services:
 before_install:
   - sudo apt-get update 
   
-build_image: drydock/u12golpls:tip
+#build_image: drydock/u12golpls:tip
   
 # Installs tool used for code coverage report
 install:
